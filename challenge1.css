@@ -1,0 +1,105 @@
+/* universele css */
+body{
+    margin: 0px;
+}
+
+
+
+/* Telefoon (standaard) - vanaf 200px tot schermgrootte 864px */ 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 100px) {
+.koptekst {
+    background: blue;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+/* DATAVISUALISATIE 1 */
+.onderwerp1 {
+    display: flex;
+    background-color: purple;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.visu1{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+}
+.info1{
+    background-color: burlywood;
+}
+
+
+/* DATAVISUALISATIE 2 */
+.onderwerp2 {
+    display: flex;
+    background-color: green;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.visu2{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+}
+.info2{
+    background-color: burlywood;
+}
+
+
+/* DATAVISUALISATIE 3 */
+.onderwerp3 {
+    display: flex;
+    background-color: pink;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.visu3{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+}
+.info3{
+    background-color: burlywood;
+}
+/* aflsuiting media querie */
+} 
+  
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {
+       grotere teksten en grotere visualisaties }
+ */
+
+
+/* /* Medium devices (landscape tablets, 768px and up)  */
+@media only screen and (min-width: 800px) {
+        .onderwerp1,.onderwerp2,.onderwerp3 {
+            flex-direction: row;
+            background-color: pink;
+            font-size: 2vw;
+        }
+}
+
+/* /* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 1000px) {
+    .onderwerp1,.onderwerp2,.onderwerp3 {
+    background-color: crimson;
+    }
+
+}
+
+/* /* Extra large devices (large laptops and desktops, 1200px and up)  */
+@media only screen and (min-width: 1200px) {
+    .onderwerp1,.onderwerp2,.onderwerp3 {
+    background-color: brown;
+    }
+}
