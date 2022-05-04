@@ -1,0 +1,14 @@
+/* /* universeel grid  */
+.grid-container {
+flex-direction: column;
+}
+
+
+/* Telefoon (standaard) - vanaf X tot schermgrootte X: */ 
+
+
+/* Tablet - vanaf schermgrootte X: */ 
+
+/* Laptop - vanaf schermgrootte X: */ 
+
+/* automatische schaling grotere apparaten */ 
