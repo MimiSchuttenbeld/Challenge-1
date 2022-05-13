@@ -2,7 +2,9 @@
 
 Via onderstaande link vind je mijn challenge 1: 
 
---- netlify link 
+Challenge 1: https://amazing-biscotti-67ba5f.netlify.app/
+
+
 
 Ik heb gebruik gemaakt van 4 verschillende datasets in de vorm van grafieken. Waar onder andere de voorraad water, brandstof, gemiddelde snelheid en gemiddeld verbruikte brandstof worden weergegeven. 
 
