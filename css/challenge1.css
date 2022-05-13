@@ -1,1 +1,64 @@
+/* universele css */
 
+* {
+    font-family: Orbitron;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    background-image: url("../images/achtergrond.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+        color: white;
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+    }
+
+/* overkoepelende grid container voor groepering */     
+.grid-container {
+    margin: 0px;
+    padding: 20px;
+    gap: 20px;
+} 
+
+/* Eerste blok met datasets*/
+.blok1 {
+   
+    align-items: center;
+    
+}    
+.chart1{
+    background-color: rgba(255,255,255,0.6);
+    max-width: 100%;
+
+}
+
+
+
+.chart2{
+    background-color: rgba(255,255,255,0.6);
+    max-width: 100%;
+    margin-top: 20px;
+
+}
+
+/* Tweede blok met datasets*/
+.blok2 {
+    max-width: 800px;
+    align-items: center;
+}
+.chart3{
+    background-color: rgba(255,255,255,0.6);
+    max-width: 100%;
+}
+
+.chart4{
+    background-color: rgba(255,255,255,0.6);
+    max-width: 100%;
+    margin-top: 20px;
+}
