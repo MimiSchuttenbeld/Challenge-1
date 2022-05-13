@@ -1,14 +1,88 @@
-/* /* universeel grid  */
+/* /* universeel grid (Mobile first) onder elkaar */
+
 .grid-container {
-flex-direction: column;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+}
+ 
+/* Small devices (portrait tablets and large phones, 600px and up) 
+   grotere teksten en grotere visualisaties */
+@media only screen and (min-width: 600px) {
+    /*Grid voor grotere telefoons niet per se nodig, meeschalen
+    Onder elkaar*/   
+    .chart1{
+        max-width: 100%;
+    
+    }
+    .chart2{
+        max-width: 100%;
+    
+    }
+}    
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  */
+@media only screen and (min-width: 768px) {
+    /* Nieuwe grid tablets,
+     naast elkaar/wrap */
+    .grid-container{
+    gap: 50px;
+    align-items: center;
+}
+    .blok1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 850px;
+        gap: 20px;
+    }
+
+    .blok2 {
+        display: flex;
+        flex-direction: row;
+        max-width: 850px;
+        gap: 20px;
+    }
+    .chart1{
+        max-width: 400px;
+    
+    }
+    .chart2{
+        max-width: 400px;
+    
+    }
+
+}   
+    
+    
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+    /* Meeschalen / extra element op de rij*/
+
+    .chart1{
+        max-width: 500px;
+    
+    }
+    .chart2{
+        max-width: 500px;
+    
+    }
+        
 }
 
-
-/* Telefoon (standaard) - vanaf X tot schermgrootte X: */ 
-
-
-/* Tablet - vanaf schermgrootte X: */ 
-
-/* Laptop - vanaf schermgrootte X: */ 
-
-/* automatische schaling grotere apparaten */ 
+/* Extra grote devices (large laptops and desktops, 1200px and up)  */
+@media only screen and (min-width: 1200px) {
+    .chart1{
+        max-width: 600px;
+    }
+    .chart2{
+        max-width: 600px;
+    }
+    .blok1 .blok2 {
+        
+        max-width: 1000px;
+    }
+}

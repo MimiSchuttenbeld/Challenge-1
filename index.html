@@ -7,52 +7,41 @@
     <meta name="description" content="SpaceX Dashboard">
     <title>SpaceX Dashboard</title>
     <link rel="stylesheet" href="challenge1.css">
-    <link type="text/css" href="grid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="grid.css">
+    
 </head>
 
 <body>
-    <div class="koptekst">
+    <div class="header">
         <h1 class="titel">I.T.S.I.</h1>
-        <h4 class="subtitel">Welcome to the Interplanetary Transport System Interface</h4>
+        <h3 class="subtitel">Welcome to the Interplanetary Transport System Interface</h3>
     </div>
     <div class="grid-container">
-        <div class="onderwerp1">
-            <div class="info1">
-                <p>
-                    Wassup peoples hier komt een mooie tekst over datavisualisatie
-                </p>
+        <div class="blok1">
+            <div class="grid-item1">
+                <canvas class="chart1" id="chart1" width="300px" height="200px">
+                    
+                </canvas>
             </div>
-            <div class="visu1">
-                <!--visuele representatie van de data, snelheid?-->
-
-            </div>
-        </div>
-        <div class="onderwerp2">
-            <div class="info2">
-                <p>
-                    Wassup peoples hier komt een mooie tekst over datavisualisatie
-                </p>
-            </div>
-            <div class="visu2">
-                <!--visuele representatie van de data, Afgelegde afstand?-->
-
+            <div class="grid-item2">
+                <canvas class="chart2" id="chart2" width="300px" height="300px"> </canvas>
             </div>
         </div>
-        <div class="onderwerp3">
-            <div class="info3">
-                <p>
-                    Wassup peoples hier komt een mooie tekst over datavisualisatie
-                </p>
-            </div>
-            <div class="visu3">
+        <div class="blok2">    
+            <div class="grid-item3">
                 <!--visuele representatie van de data, Mars naar Aardse afstand omzetten-->
-
+                <canvas id="chart3" class="chart3" width="300px" height="300px"> </canvas>
+            </div>
+            <div class="grid-item4">
+                <!--visuele representatie van de data, Mars naar Aardse afstand omzetten-->
+                <canvas id="chart4" class="chart4" width="300px" height="200px"> </canvas>
             </div>
         </div>
     </div>
     <footer>
     </footer>
-    <script type="text/javascript" src="challenge1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="challenge1.js" ></script>
 </body>
 
 </html>
